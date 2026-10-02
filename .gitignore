@@ -1,0 +1,12 @@
+
+.venv/
+__pycache__/
+*.pyc
+
+data/raw/
+data/processed/*
+!data/processed/
+data/processed/*
+!data/processed/risk_results.csv
+
+models/*.pkl
